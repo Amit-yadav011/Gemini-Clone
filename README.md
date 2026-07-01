@@ -1,16 +1,41 @@
-# React + Vite
+# Gemini Clone — AI Chat Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect clone of Google's Gemini AI interface built with 
+React, powered by the real Google Gemini API. Send any query and 
+get real-time AI-generated responses — just like the original.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Pixel-perfect Gemini UI recreation
+- Real-time AI responses via Google Gemini API
+- Query input with send functionality
+- Clean, minimal chat interface
+- Fully responsive layout
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** — component-based UI architecture
+- **Google Gemini API** — real-time AI response generation
+- **CSS3 / Tailwind** — styling and layout
+- **Axios / Fetch** — API integration
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[View Live →](https://ai-amit.netlify.app)
+
+## ⚠️ Environment Variables
+
+This project requires a Google Gemini API key.
+Get yours free at [Google AI Studio](https://makersuite.google.com/)
+
+## 🎯 What I Learned
+
+- Google Gemini API integration in React
+- Managing async API calls and response states
+- Pixel-perfect UI replication techniques
+- Environment variable handling in Vite
+
+## 📄 License
+
+MIT License — for educational purposes only.
+All design credits go to Google Gemini.
