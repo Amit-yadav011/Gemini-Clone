@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+*{
+ box-sizing: border-box;
+ font-family:Outfit;
+}
+#root{
+  min-height: 100vh;
+  display: flex;
+}
+@import "tailwindcss";
+
+.text span{
+  background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.loader hr{
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(to right,#9ed7ff,#fff);
+  height: 20px;
+  background-size: 800;
+  animation: loader 3s infinite linear;
+}
+@keyframes loader{
+  0%{
+    background-position: -800px,0px;
+  }
+  100%{
+    background-position: 800px, 0px;
+  }
+}
+.cards::-webkit--scrollbar{
+  display: none;
+}
+.answer::-webkit-scrollbar{
+  display: none;
+} 
